@@ -29,13 +29,20 @@ img {
 header.masthead {
   position: relative;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  color: white;  
+  color: white;
   background: url(../img/background.png), #153677;
   border-bottom: 2px solid #2D538B;
   overflow: hidden;
   z-index: 999;  
+}
+
+.link-repository {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.link-repository a {
+  color: white;
 }
 
 header.masthead h1, header.masthead h2 {
