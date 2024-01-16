@@ -1,0 +1,108 @@
+header.masthead .rocket-animation {
+  -webkit-animation: rocket 7s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: rocket 7s infinite alternate;
+  z-index: -2;
+}
+
+@-webkit-keyframes rocket {
+  0% { transform: translate(25px, -25px); }
+  100% { transform: translate(-25px, 25px); }
+}
+
+@keyframes rocket {
+  0% { transform: translate(25px, -25px); }
+  100% { transform: translate(-25px, 25px); }
+}
+
+header.masthead .terra {    
+  background: url(../img/galaxy/terra.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .moon {    
+  background: url(../img/galaxy/moon.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .marte {    
+  background: url(../img/galaxy/marte.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .jupter {    
+  background: url(../img/galaxy/jupter.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .saturno {    
+  background: url(../img/galaxy/saturno.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .uranus {    
+  background: url(../img/galaxy/uranus.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .satellite {    
+  background: url(../img/galaxy/satellite.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .satellite2 {    
+  background: url(../img/galaxy/satellite2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .astronauta {    
+  background: url(../img/galaxy/astronauta.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .meteoro {    
+  background: url(../img/galaxy/meteoro.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .meteorito {    
+  background: url(../img/galaxy/meteorito.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .meteorito2 {    
+  background: url(../img/galaxy/meteorito2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .ovni {    
+  background: url(../img/galaxy/ovni.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header.masthead .rocket-guest {    
+  background: url(../img/galaxy/rocket-guest.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media (max-width: 991px) {
+  header.masthead .rocket-animation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+  }
+}
